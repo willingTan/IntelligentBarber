@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+    <Resource name="jdbc/mysqlds" 
+        auth="Container" 
+        type="javax.sql.DataSource" 
+        username="WillinTan@intelligentbarber" 
+        password="twl12345@" 
+        maxIdle="30" 
+        maxWait="10000" 
+        maxActive="100"
+        driverClassName="com.mysql.jdbc.Driver"
+        url="jdbc:mysql://intelligentbarber.mysqldb.chinacloudapi.cn:3306/ic"
+        logAbandoned="true" />
+</Context>
