@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="intelligentbarber">
-    <output-path>$PROJECT_DIR$/out/artifacts/intelligentbarber</output-path>
-    <root id="archive" name="intelligentbarber.jar">
-      <element id="module-output" name="JsonTest" />
-    </root>
-  </artifact>
-</component>
