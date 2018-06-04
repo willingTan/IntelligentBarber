@@ -5,9 +5,9 @@ import java.sql.*;
 public class ConnectFactory {
 
 	String driver = "com.mysql.jdbc.Driver";
-	String url = "jdbc:mysql://localhost:3306/ic?user=root&password=twl12345&useUnicode=true&characterEncoding=UTF8&useSSL=false";
+	//String url = "jdbc:mysql://localhost:3306/ic?user=root&password=twl12345&useUnicode=true&characterEncoding=UTF8&useSSL=false";
 	//String url = "jdbc:mysql://testazsuredatabase.mysqldb.chinacloudapi.cn:3306/ic?user=twl@testazsuredatabase&password=Shenxiaoji12138&useUnicode=true&characterEncoding=UTF8&useSSL=false";
-	//String url = "jdbc:mysql://intelligentbarber.mysqldb.chinacloudapi.cn:3306/ic?user=WillinTan@intelligentbarber&password=twl12345@&useUnicode=true&characterEncoding=UTF8&useSSL=false";
+	String url = "jdbc:mysql://intelligentbarber.mysqldb.chinacloudapi.cn:3306/ic?user=WillinTan@intelligentbarber&password=twl12345@&useUnicode=true&characterEncoding=UTF8&useSSL=false";
 
 
 	private Connection conn;

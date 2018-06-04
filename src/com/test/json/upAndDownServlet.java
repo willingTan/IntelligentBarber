@@ -43,7 +43,6 @@ public class upAndDownServlet extends HttpServlet{
         //CheckTotal checkTotal=new CheckTotal("访问成功",checks.size(),checks);
         Gson gson=new Gson();
         String json=gson.toJson(responseCode);
-        //System.out.println(json);
         resp.setContentType("text/html;charset=UTF-8");
         PrintWriter pw = resp.getWriter();
         pw.print(json);
